@@ -22,5 +22,5 @@ props.routerInstance?.getRoutes().forEach(r => console.log(r.name?.toString));
         This is the application component imported from @spa/app-component-b package.
     </div>
     <br />
-    <a @click="navigateTo('/about')">About</a>
+    <a @click="navigateTo('/about')">Navigate to About</a>
 </template>
