@@ -1,0 +1,5 @@
+/<template>
+    <div class="site-footer">
+        Site Footer
+    </div>
+</template>

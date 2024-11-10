@@ -1,0 +1,1 @@
+export { default as AppComponentB } from "./AppComponentB.vue";
