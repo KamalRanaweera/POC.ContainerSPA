@@ -1,11 +1,13 @@
 <template>
-    <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/app-component-a">App Component A</RouterLink>
-        <RouterLink to="/app-component-b">App Component B</RouterLink>
-        <RouterLink to="/app-component-c">App Component C</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-    </nav>
+    <div class="content">
+      <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/app-component-a">App Component A</RouterLink>
+          <RouterLink to="/app-component-b">App Component B</RouterLink>
+          <RouterLink to="/app-component-c">App Component C</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+      </nav>
+    </div>
 </template>
 
 <style scoped>

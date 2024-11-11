@@ -6,18 +6,12 @@ import SiteNavigation from './components/SiteNavigation.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <site-header />
-      <site-navigation />
-    </div>
-  </header>
-
-  <RouterView />
-  
-  <footer>
-    <site-footer />
-  </footer>
+  <site-header />
+  <site-navigation />
+  <div class="content page-body">
+    <RouterView />
+  </div>
+  <site-footer />
 </template>
 
 <style scoped>
@@ -29,7 +23,9 @@ header {
   display: block;
   margin: 0 auto 2rem;
 }
-
+.page-body {
+  min-height: 200px;
+}
 
 @media (min-width: 1024px) {
   header {
