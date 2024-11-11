@@ -15,7 +15,7 @@ const navigateTo = (path:string) => router.push(path);
         inner route <em>/app-component-b/subroot1</em>, which is a route defined internally in this component.
     </div>
     <br />
-    <span @click="navigateTo('/about')" class="green link">Navigate to About</span>
+    <span @click="navigateTo('/about')" class="green link">Navigate to About</span> | 
     <span @click="navigateTo('/app-component-b/subroot1')" class="green link">Navigate to sub-route one</span>
 
 </template>
