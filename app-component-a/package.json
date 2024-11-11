@@ -19,24 +19,17 @@
   },
   "peerDependencies": {
     "pinia": "^2.2.6",
-    "bootstrap": "^5.3.3",
-    "swiper": "^11.1.2",
-    "vue": "^3.4.21",
-    "vue-bootstrap-icons": "^0.2.4"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
     "@types/node": "^20.12.10",
     "@vitejs/plugin-vue": "^5.0.4",
-    "bootstrap": "^5.3.3",
     "glob": "^10.3.12",
-    "sass": "^1.77.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",
     "vite-plugin-lib-inject-css": "^2.0.1",
     "vite-plugin-mkcert": "^1.17.5",
-    "vue": "^3.4.21",
-    "vue-router": "^4.0.13",
     "vue-tsc": "^2.0.6"
   }
 }
