@@ -23,6 +23,11 @@ const router = createRouter({
       component: AppComponentB,
     },
     {
+      path: '/app-component-c',
+      name: 'app-component-c',
+      component: () => import('@spa/app-component-c'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
