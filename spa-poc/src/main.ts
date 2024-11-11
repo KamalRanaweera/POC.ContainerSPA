@@ -13,7 +13,7 @@ const app = createApp(App)
 
 const pinia = createPinia();
 app.use(pinia)
-app.use(componentA, {piniaInstance: pinia});
-app.use(componentB, {routerInstance: router});
+app.use(componentA, { piniaInstance: pinia });
+app.use(componentB, { routerInstance: router });
 app.use(router)
 app.mount('#app')

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+import { default as AppComponentA } from '@spa/app-component-a';
+import { default as AppComponentB } from '@spa/app-component-b';
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -12,12 +15,12 @@ const router = createRouter({
     {
       path: '/app-component-a',
       name: 'app-component-a',
-      component: () => import('@spa/app-component-a'),
+      component: AppComponentA
     },
     {
       path: '/app-component-b',
       name: 'app-component-b',
-      component: () => import('@spa/app-component-b'),
+      component: AppComponentB,
     },
     {
       path: '/about',
