@@ -1,18 +1,9 @@
 <script setup lang="ts">
-import {Router} from 'vue-router';
+import { getCurrentInstance } from 'vue';
 
-const props = defineProps<{
-    routerInstance?: Router | undefined
-}>();
+const router = getCurrentInstance()!.appContext.config.globalProperties.$router;
 
-
-function navigateTo(path:string){
-    console.log('Navigating to: ', path)
-    props.routerInstance?.push(path);
-}
-
-
-props.routerInstance?.getRoutes().forEach(r => console.log(r.name?.toString));
+const navigateTo = (path:string) => router.push(path);
 
 </script>
 
@@ -23,4 +14,6 @@ props.routerInstance?.getRoutes().forEach(r => console.log(r.name?.toString));
     </div>
     <br />
     <span @click="navigateTo('/about')" class="green link">Navigate to About</span>
+    <span @click="navigateTo('/app-component-b/subroot1')" class="green link">Navigate to sub-route one</span>
+
 </template>

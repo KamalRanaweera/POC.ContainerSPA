@@ -1,14 +1,6 @@
 <script setup lang="ts">
-import { Pinia, setActivePinia } from "pinia";
 import { useComponentStoreA } from "./stores";
 
-const props = defineProps<{
-    piniaInstance?: Pinia
-}>();
-
-if(props.piniaInstance){
-    setActivePinia(props.piniaInstance);
-}
 
 const store = useComponentStoreA();
 
