@@ -17,13 +17,13 @@ Foloow these steps to build this POC:
     	npm install
     	npm build
     	npm link
-	  </code>
- * Go inside the spa-poc folder and run 
-	  <code>
+    </code>
+ * Go inside the spa-poc folder and run
+      <code>
     	npm install
     	npm link @spa/app-component-a @spa/app-component-b @spa/app-component-c
     	npm run dev
-	  </code>
+      </code>
  
 # What to Expect
 When you visit http://localhost:8080, you should see a website with the following pages:
