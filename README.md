@@ -27,7 +27,7 @@ Foloow these steps to build this POC:
  
 # What to Expect
 When you visit http://localhost:8080, you should see a website with the following pages:
- * **Home About:** simple pages created on the SPA
+ * **Home, About:** simple pages created on the SPA
  * **App Component A:** a page that displays the Pinia based component imported from <code>app-component-a</code>. This page has two buttons that increment and descrement a counter.
  * **App Component B:** a page that displays the Vue-ROuter based component imported from <code>app-component-b</code>. This page has two Vue-router based links:
     * **Navigate to About Page:** a link that navigates to the SPA-based *About* page.
