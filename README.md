@@ -12,7 +12,7 @@ This repository consist of the followings:
 # How to Build
 Foloow these steps to build this POC:
  * Clone the repository
- * Go inside each compoment folder and run 
+ * Go inside each app-compoment folder and run 
     <code>
     	npm install
     	npm build
