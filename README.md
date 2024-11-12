@@ -30,6 +30,6 @@ When you visit http://localhost:8080, you should see a website with the followin
  * **Home About:** simple pages created on the SPA
  * **App Component A:** a page that displays the Pinia based component imported from <code>app-component-a</code>. This page has two buttons that increment and descrement a counter.
  * **App Component B:** a page that displays the Vue-ROuter based component imported from <code>app-component-b</code>. This page has two Vue-router based links:
-    * **Navigate to About Page:** a link that navigates to the SPA-based "About" page.
+    * **Navigate to About Page:** a link that navigates to the SPA-based *About* page.
     * **Navigate to Sub-route-one Page:** a link that navigates to a page that is added to the Vue Router by the plugin. The SPA is unaware of this inner page or its route.
 * **App Component C:** a page that renders the simple component imported from <code>app-component-c</code> 
