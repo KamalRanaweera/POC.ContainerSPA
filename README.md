@@ -1,14 +1,14 @@
 # Introduction
 This is a proof-of-concept (POC) implementation of a single-page application (SPA) that provides core functionality for a website, delegating the rendering of specific pages to domain-specific components. The technology platform used is Vue.JS, along with its associated frameworks. 
 Domain-specific components can be developed independently from the SPA and integrated as Vue plugins or components.
+
 # Source Code Structure
 This repository consist of the followings:
   * **spa-poc:** The prototype single-page application.
-  * **app-component-a:** An implementation of a plugin that uses Pinia store to manage application state
+  * **app-component-a:** An implementation of a plugin that uses Pinia store to manage application state.
   * **app-component-b:** An implementation of a plugin that uses Vue router for managing custom routes.
   * **app-component-c:** An implementation of a simple Vue component.
-  
-  
+
 # How to Build
 Foloow these steps to build this POC:
  * Clone the repository
