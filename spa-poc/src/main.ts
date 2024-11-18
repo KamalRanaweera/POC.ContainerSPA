@@ -8,7 +8,7 @@ import router from './router'
 
 import { componentA } from '@spa/app-component-a'
 import { componentB } from '@spa/app-component-b'
-import { componentD } from '@spa/app-component-d'
+import { componentC } from '@spa/app-component-c'
 
 const app = createApp(App)
 
@@ -16,6 +16,6 @@ const pinia = createPinia();
 app.use(pinia)
 app.use(componentA, { piniaInstance: pinia });
 app.use(componentB, { routerInstance: router });
-app.use(componentD, { piniaInstance: pinia, routerInstance: router });
+app.use(componentC, { piniaInstance: pinia, routerInstance: router });
 app.use(router)
 app.mount('#app')

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { getCurrentInstance } from "vue";
-import { useComponentStoreD } from "./stores";
+import { useComponentStoreC } from "./stores";
 
 const router = getCurrentInstance()!.appContext.config.globalProperties.$router;
 
-const store = useComponentStoreD();
+const store = useComponentStoreC();
 function back():void {
     router.back();
 }
@@ -12,7 +12,7 @@ function back():void {
 </script>
 
 <template>
-    <h2>App Component D Child Details</h2>
+    <h2>App Component C Child Details</h2>
     <div>
         Item Count: {{ store.items.length }}
     </div>

@@ -18,7 +18,9 @@
     "prepublishOnly": "vue-tsc --p tsconfig.build.json && vite build"
   },
   "peerDependencies": {
-    "vue": "^3.4.21"
+    "pinia": "^2.2.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@types/node": "^20.12.10",
@@ -29,7 +31,6 @@
     "vite-plugin-dts": "^3.9.1",
     "vite-plugin-lib-inject-css": "^2.0.1",
     "vite-plugin-mkcert": "^1.17.5",
-    "vue": "^3.4.21",
     "vue-tsc": "^2.0.6"
   }
 }

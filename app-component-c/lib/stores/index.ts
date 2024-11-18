@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { Item } from "../models";
 
-export const useComponentStoreD = defineStore('ComponentStoreD', {
+export const useComponentStoreC = defineStore('ComponentStoreC', {
     state: () => ({
         _idSeed: 1,
         _items: [] as Item[],
