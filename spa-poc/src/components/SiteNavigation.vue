@@ -5,6 +5,7 @@
           <RouterLink to="/app-component-a">App Component A</RouterLink>
           <RouterLink to="/app-component-b">App Component B</RouterLink>
           <RouterLink to="/app-component-c">App Component C</RouterLink>
+          <RouterLink to="/app-component-d">App Component D</RouterLink>
           <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>

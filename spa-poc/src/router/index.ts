@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 import { default as AppComponentA } from '@spa/app-component-a';
 import { default as AppComponentB } from '@spa/app-component-b';
+import { default as AppComponentD } from '@spa/app-component-d';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,7 +10,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: () => import('../views/HomeView.vue'),
     },
     {
       path: '/app-component-a',
@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/app-component-c',
       name: 'app-component-c',
       component: () => import('@spa/app-component-c'),
+    },
+    {
+      path: '/app-component-d',
+      name: 'app-component-d',
+      component: AppComponentD,
     },
     {
       path: '/about',
