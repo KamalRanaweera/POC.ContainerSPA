@@ -13,9 +13,9 @@ import { componentC } from '@spa/app-component-c'
 const app = createApp(App)
 
 const pinia = createPinia();
-app.use(pinia)
+app.use(pinia);
 app.use(componentA, { piniaInstance: pinia });
 app.use(componentB, { routerInstance: router });
 app.use(componentC, { piniaInstance: pinia, routerInstance: router });
-app.use(router)
-app.mount('#app')
+app.use(router);
+app.mount('#app');

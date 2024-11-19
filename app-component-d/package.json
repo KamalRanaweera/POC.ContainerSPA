@@ -18,7 +18,7 @@
     "prepublishOnly": "vue-tsc --p tsconfig.build.json && vite build"
   },
   "peerDependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@types/node": "^20.12.10",
