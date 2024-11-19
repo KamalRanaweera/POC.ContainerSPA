@@ -17,7 +17,7 @@ export default defineConfig({
     },
     copyPublicDir: false,
     rollupOptions: {
-      external: ["vue"],
+      external: ["vue", "pinia", "vue-router"],
       input: Object.fromEntries(
         glob.sync("lib/**/*.{ts,tsx,vue}").map((file) => [
           relative("lib", file.slice(0, file.length - extname(file).length)),
